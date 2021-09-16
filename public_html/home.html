@@ -17,6 +17,9 @@
     <!-- external script -->
     <script src="functions.js"></script>
 
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
     <!-- each website page has its own title in the tab -->
     <title>Home Page</title>
 </head>
@@ -31,32 +34,44 @@
         <a href="service.html">Service</a>
     </nav>
 
+    <div class="banner">
+        <!-- image tag can be used to attach images linked in src attribute -->
+        <img id="me" src="images/me Cropped.jpg">
+    </div>
+
     <!-- header tags can be used to mark titles, subtitles, sections, etc. -->
-    <h1>Stephen Ndubueze</h1>
-    <hr>
-
-    <!-- image tag can be used to attach images linked in src attribute -->
-    <img src="images/me_suit.jpg" border="10" alt="A picture of me">
-
-    <button type="button" onclick="myLightFunction()">Light mode</button>
-
-    <button type="button" onclick="myDarkFunction()">Dark mode</button>
+    <h1 style="text-align: center; font-family: Levenim;">Hi! I'm Stephen Ndubueze.</h1>
 
     <!-- the paragraph tag can be used to separate content into blocks -->
-    <p>
+    <p style="text-align: center;">
         Howdy! I'm a computer engineering major from Texas A&M University. I enjoy playing the piano, reading, and video
         games.
     </p>
-    <br>
 
-    <h2>Contact</h2>
+    <hr style="width: 50%; height: 2px;">
 
-    <!-- unordered list tag for bullet points -->
-    <ul>
-        <li>Email: sundubueze78@gmail.com</li>
-        <li>Linkedin: https://www.linkedin.com/in/stephen-ndubueze/</li>
-    </ul>
+    <div>
 
+    </div>
+
+    <div id="social-row">
+        <!-- unordered list tag for bullet points -->
+        <ul id="social-list">
+            <li id="linkedin"><a href="https://www.linkedin.com/in/stephen-ndubueze/"></a></li>
+            <li id="email"><a href="mailto:sundubueze78@gmail.com"></a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p style="font-family: rubik; font-size: .7em;">
+            <button type="button" onclick="myLightFunction()">Light mode</button>
+            <button type="button" onclick="myDarkFunction()">Dark mode</button>
+
+            <br>
+
+            Copyright © 2021 Stephen Ndubueze. All Rights Reserved.
+        </p>
+    </footer>
 </body>
 
 </html>

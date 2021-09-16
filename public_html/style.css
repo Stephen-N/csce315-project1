@@ -1,0 +1,133 @@
+/* type selector */
+body, html {
+    /* rule set for declaration: property: value; */
+    height:100%
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+}
+
+/* id selector */
+#social-row {
+    display: block;
+    height: 64px;
+    width: 34em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid rgb(209, 201, 201);
+    text-align: center;
+}
+
+#social-list {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+#social-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-right: 40px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+  }
+  
+  #social-list li, #social-list a {
+    width: 55px;
+    height: 54px;
+    display: block;
+  }
+
+#linkedin {
+    /* portion of image we want to use */
+    width: 55px;
+    height: 54px;
+    background: url('images/sprites.png') -258px -134px;
+}
+
+#email {
+    /* portion of image we want to use */
+    width: 55px;
+    height: 54px;
+    background: url('images/sprites.png') -172px -134px;
+}
+
+#me {
+    position: relative;
+    display: block;
+    height: 12em;
+    width: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+/* class selector */
+.bgimg {
+    /* Background immage Photo by Lukas from Pexels*/ 
+    background-image: url('images/pexels-lukas-574071.jpg');
+    /* Full-screen */
+    height:100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the.bgim container */
+    color: white;
+    /* Add a font */
+    font-family: 'Courier New', Courier, monospace;
+    /* Set the font-ize to 25 pixels */
+    font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate (-50%, -50%);
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.banner {
+    background-image: url(images/tamu_aerial.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
