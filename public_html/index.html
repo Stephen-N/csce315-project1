@@ -17,34 +17,68 @@
     <!-- external script -->
     <script src="functions.js"></script>
 
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
     <!-- each website page has its own title in the tab -->
-    <title>Landing Page</title>
+    <title>Home Page</title>
 </head>
 
 <!-- body tag contains main content and everything you see -->
 
 <body style="background-color: whitesmoke;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark pl-2">
-        <a href="home.html">Home</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="qualifications.html">Qualifications</a> |
-        <a href="service.html">Service</a>
-    </nav>
-
     <div class="bgimg">
-        <div class="topLeft">
-            <p>Logo</p>
+        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #800000;">
+            <a class="navbar-brand" href="https://engineering.tamu.edu/">
+                <img src="images/a&m_icon.png" height="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio </a>
+                    <a class="nav-item nav-link" href="qualifications.html">Qualifications</a>
+                    <a class="nav-item nav-link" href="service.html">Service</a>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <!-- image tag can be used to attach images linked in src attribute -->
+            <img id="me" src="images/me Cropped.jpg" style="margin-bottom: 12px;">
         </div>
-        <div class="middle">
-            <!-- header tags can be used to mark titles, subtitles, sections, etc. -->
-            <h1>Howdy!</h1>
+
+        <!-- header tags can be used to mark titles, subtitles, sections, etc. -->
+        <h1 style="text-align: center; font-family: Levenim;" class="landingtext">Howdy! I'm Stephen Ndubueze.</h1>
+
+        <!-- the paragraph tag can be used to separate content into blocks -->
+        <p style="text-align: center;" class="landingtext">
+            I'm a computer engineering major from Texas A&M University. I enjoy playing the piano, reading, and
+            video
+            games.
+        </p>
+
+        <hr style="width: 50%; height: 2px;">
+
+        <div id="social-row">
+            <!-- unordered list tag for bullet points -->
+            <ul id="social-list">
+                <li id="linkedin"><a href="https://www.linkedin.com/in/stephen-ndubueze/"></a></li>
+                <li id="email"><a href="mailto:sundubueze78@gmail.com"></a></li>
+                <li id="github"><a href="https://github.com/Stephen-N"></a></li>
+            </ul>
         </div>
-        <div class="bottomLeft">
-            <p>lorem ipsum</p>
-        </div>
+
+        <footer>
+            <p style="font-family: rubik; font-size: .7em;" class="landingtext">
+                Copyright © 2021 Stephen Ndubueze. All Rights Reserved.
+            </p>
+        </footer>
     </div>
-
-
 </body>
 
 </html>

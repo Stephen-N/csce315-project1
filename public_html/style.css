@@ -26,7 +26,7 @@ footer {
     margin: auto;
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 1px solid rgb(209, 201, 201);
+    /* border-top: 1px solid rgb(209, 201, 201); */
     text-align: center;
 }
 
@@ -61,10 +61,15 @@ footer {
 }
 
 #email {
-    /* portion of image we want to use */
     width: 55px;
     height: 54px;
     background: url('images/sprites.png') -172px -134px;
+}
+
+#github {
+    width: 55px;
+    height: 55px;
+    background: url('images/github-resized.png');
 }
 
 #me {
@@ -80,7 +85,7 @@ footer {
 /* class selector */
 .bgimg {
     /* Background immage Photo by Lukas from Pexels*/ 
-    background-image: url('images/pexels-lukas-574071.jpg');
+    background-image: url('images/tamu_aerial.jpg');
     /* Full-screen */
     height:100%;
     /* Center the background image */
@@ -89,12 +94,7 @@ footer {
     background-size: cover;
     /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
     position: relative;
-    /* Add a white text color to all elements inside the.bgim container */
-    color: white;
-    /* Add a font */
-    font-family: 'Courier New', Courier, monospace;
-    /* Set the font-ize to 25 pixels */
-    font-size: 25px;
+   
 }
 
 /* Position text in the top-left corner */
@@ -130,4 +130,13 @@ footer {
     background-size: cover;
     background-position: center;
     border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.landingtext {
+    /* Add a white text color to all elements inside the container */
+    color: white;
+    /* Add a font */
+    font-family: 'Courier New', Courier, monospace;
+    /* Set the font-ize to 25 pixels */
+    font-size: 25px;
 }
