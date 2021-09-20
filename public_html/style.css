@@ -9,6 +9,11 @@ hr {
     width: 40%;
 }
 
+p {
+    font-family: EB Garamond; 
+    font-size: large;
+}
+
 footer {
     position: fixed;
     bottom: 2px;
@@ -139,4 +144,27 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     /* Set the font-ize to 25 pixels */
     font-size: 25px;
+}
+
+.strokeme {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.section-title {
+    background-color: silver;
+    font-family: -apple-system;
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

@@ -15,65 +15,78 @@
     <!-- external script -->
     <script src="functions.js"></script>
 
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- external font -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
     <!-- each website page has its own title in the tab -->
     <title>Portfolio</title>
 </head>
 
 <body style="background-color: whitesmoke;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark pl-2">
-        <a href="home.html">Home</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="qualifications.html">Qualifications</a> |
-        <a href="service.html">Service</a>
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #800000;">
+        <a class="navbar-brand" href="https://engineering.tamu.edu/">
+            <img src="images/a&m_icon.png" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio </a>
+                <a class="nav-item nav-link" href="qualifications.html">Qualifications</a>
+                <a class="nav-item nav-link" href="service.html">Service</a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Portfolio</h1>
-    <hr>
-    <!-- the anchor tag is a hyperlink -->
-    <a href="index.html">Home</a>
-
-    <h2>Check out my creations</h2>
-    <p>
-        <b>Labyrinth-Game</b> <br>
-        <a href="https://github.com/Stephen-N/Labyrinth-Game"><img src="images/labyrinth.png" alt="labyrinth game"
-                width="300"></a> <br><br>
-
-    <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec mattis arcu. Pellentesque eleifend
-            magna imperdiet lobortis dignissim.</li>
-    </ul>
-
-
-    <b>Multi-echo filter</b> <br>
-    <a href="https://github.com/Stephen-N/ecen314-project"><img src="images/multi_echo_figure.jpg" alt="echo filter"
-            width="300"></a> <br><br>
-
-    <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec mattis arcu. Pellentesque eleifend
-            magna imperdiet lobortis dignissim.</li>
-    </ul>
-
-    <b>World Education Statistics Calculator</b> <br>
-    <a href="https://github.com/Stephen-N/World-Education-Statistics-Calculator"><img src="images/calculator.png"
-            alt="statistics calculator" width="300"></a>
-
-    <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec mattis arcu. Pellentesque eleifend
-            magna imperdiet lobortis dignissim.</li>
-    </ul>
-    </p>
-
-
-    <footer>
-        <p style="font-family: rubik; font-size: .7em;" class="landingtext">
-            <button type="button" onclick="myLightFunction()">Light mode</button>
-            <button type="button" onclick="myDarkFunction()">Dark mode</button>
-
-            <br>
-
-            Copyright © 2021 Stephen Ndubueze. All Rights Reserved.
+    <div class="section-title">
+        <p>
+        <h1>Portfolio</h1>
+        Check out my creations! All projects are saved on github.
         </p>
-    </footer>
+    </div>
+
+    <div style="font-family: EB Garamond; padding-bottom: 50px; margin-left: 20px;">
+        <p>
+            <b>Labyrinth-Game</b> <br>
+            <a href="https://github.com/Stephen-N/Labyrinth-Game" target="_blank"><img src="images/labyrinth.png"
+                    alt="labyrinth game" width="300">
+            </a>
+
+        <ul>
+            <li>Created in Unreal Engine 4, Taurus is a game made for the game jam hosted by the TAMU game development
+                club
+            </li>
+        </ul>
+
+
+        <b>Multi-echo filter</b> <br>
+        <a href="https://github.com/Stephen-N/ecen314-project" target="_blank"><img src="images/multi_echo_figure.jpg"
+                alt="echo filter" width="300"></a>
+
+        <ul>
+            <li>Acoustic energy is reflected from various boundary surfaces, so that the listener can hear the multitude
+                of
+                reflection from many directions. This project aims to simulate this natural phenomenon.</li>
+        </ul>
+
+        <b>World Education Statistics Calculator</b> <br>
+        <a href="https://github.com/Stephen-N/World-Education-Statistics-Calculator" target="_blank"><img
+                src="images/calculator.png" alt="statistics calculator" width="300"></a>
+
+        <ul>
+            <li>Data Structures and Algorithms project designed to parse and categorize information from a World Bank
+                Education Census data.
+            </li>
+        </ul>
+        </p>
+    </div>
+
 
 </body>
 

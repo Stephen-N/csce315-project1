@@ -15,38 +15,76 @@
     <!-- external script -->
     <script src="functions.js"></script>
 
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- external font -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
     <!-- each website page has its own title in the tab -->
     <title>Qualifications</title>
 </head>
 
 <body style="background-color: whitesmoke;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark pl-2">
-        <a href="home.html">Home</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="qualifications.html">Qualifications</a> |
-        <a href="service.html">Service</a>
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #800000;">
+        <a class="navbar-brand" href="https://engineering.tamu.edu/">
+            <img src="images/a&m_icon.png" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio </a>
+                <a class="nav-item nav-link" href="qualifications.html">Qualifications</a>
+                <a class="nav-item nav-link" href="service.html">Service</a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Qualifications</h1>
-    <hr>
-    <a href="index.html">Home</a>
+    <div class="section-title">
+        <h1>Qualifications</h1>
+    </div>
 
-    <p>
-        <a href="https://drive.google.com/file/d/1C6mPzElGTBignGG9MKdQnHW3OI0hpHQs/view?usp=sharing" target="_blank">
-            <h2>Resume</h2>
-        </a>
-        <iframe src="https://drive.google.com/file/d/1C6mPzElGTBignGG9MKdQnHW3OI0hpHQs/preview" width="640" height="480"
+    <div style="text-align: center; display: block; margin-top: 5px;">
+        <iframe src="https://drive.google.com/file/d/1C6mPzElGTBignGG9MKdQnHW3OI0hpHQs/preview" width="740" height="900"
             allow="autoplay"></iframe>
+    </div>
 
-    <h2>Technical Skills</h2>
-    Duis tempor hendrerit vestibulum. Morbi feugiat sollicitudin enim, sit amet auctor velit commodo vel. Duis a enim ac
-    elit pellentesque scelerisque. Nullam in commodo odio. Pellentesque vehicula ante diam, nec egestas leo consectetur
-    quis. Vestibulum dapibus nunc nec congue convallis. Vestibulum lacinia purus non purus interdum ultricies. Cras
-    blandit, purus at vehicula molestie, est ex tempor quam, dictum porta massa nulla et velit. Sed vulputate, est vitae
-    pretium ullamcorper, sem elit finibus tellus, finibus vestibulum erat ipsum non orci. Duis pharetra lacinia laoreet.
-    Donec eu pulvinar odio, a egestas lectus. Fusce in enim a est ullamcorper finibus id sed velit. Aliquam ut tortor
-    enim. Sed ornare lobortis nibh, nec malesuada felis iaculis quis.
-    </p>
+    <div style="margin-left: 20px; margin-right: 20px;">
+        <h2 style="font-family: EB Garamond;">Technical Skills</h2>
+        <p>
+        <ul>
+            <li>
+                <h3>C++</h3>
+            </li>
+            I have 4 years of experience in C++ now. In these 4 years I have applied C++ on projects including game
+            development, operating system design, and small software projects that will soon be on github.
+            <li>
+                <h3>Python</h3>
+            </li>
+            I have used python for a machine learning project and for automating specific tasks such as downloading
+            files from a website. I plan on publishing a game soon using python. Look forward to it!
+            <li>
+                <h3>HTML5, CSS, Javascript</h3>
+            </li>
+            This website is my first web development project! I used the bootstrap framework along with resources from
+            freeCodeCamp in order to accomplish this and look forward to developing these skills further in the future.
+        </ul>
+        </p>
+
+        <h2 style="font-family: EB Garamond;">Why Computer Engineering?</h2>
+        <p style="padding-bottom: 50px;">
+            Growing up I played a lot of computer games and had some experience early on with making bootleg animations
+            for fun. When I took my first CS class in high school I found that I really enjoyed programming and the
+            problem solving involved. Eventually this lead to me learning about new techonogies and all sorts of
+            interesting things in the software world, leading me to my major.
+        </p>
+
+    </div>
+
 </body>
 
 </html>

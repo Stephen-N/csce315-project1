@@ -15,33 +15,72 @@
     <!-- external script -->
     <script src="functions.js"></script>
 
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- external font -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
     <!-- each website page has its own title in the tab -->
     <title>Service</title>
 </head>
 
 <body style="background-color: whitesmoke;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark pl-2">
-        <a href="home.html">Home</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="qualifications.html">Qualifications</a> |
-        <a href="service.html">Service</a>
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #800000;">
+        <a class="navbar-brand" href="https://engineering.tamu.edu/">
+            <img src="images/a&m_icon.png" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio </a>
+                <a class="nav-item nav-link" href="qualifications.html">Qualifications</a>
+                <a class="nav-item nav-link" href="service.html">Service</a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Service</h1>
-    <hr>
-    <a href="index.html">Home</a>
+    <div class="section-title">
+        <h1>Service</h1>
+    </div>
 
-    <!-- table tag for organizing info into rows(tr) and columns(th for headers, td for data) -->
-    <table border="10" cellpadding="10" cellspacing="0">
-        <tr>
-            <th>Years</th>
-            <th>Occupation</th>
-        </tr>
-        <tr>
-            <td>2014-2017</td>
-            <td>Houston Methodist</td>
-        </tr>
-    </table>
+    <div style="display: block; text-align: center;">
+        <img src="images/Houston-Methodist-Hospital-10.jpg">
+    </div>
+
+    <div style="padding-top: 30px; padding-bottom: 30px; margin-left: 20px; margin-right: 20px;">
+        <h2 style="font-family: EB Garamond;">Volunteer, Patient Care Services</h2>
+        <p>
+            I spent the majority of my high school years volunteering on Houston Methodist on the orthopedic floor. This
+            experience is particularly important to me because it was my first time dedicating my time to something
+            that's bigger than myself, the health of other people.
+        </p>
+
+        <p>
+            Initially I signed up my first year to score some volunteer hours and at the time I was considering becoming
+            a medical doctor. Wanting to see how the hospital environment is like, I volunteered there. Sometimes I
+            would be grouped with another volunteer but most days would consist of me helping to clean rooms, help
+            patients in and out of bed, answering calls for nurse station, and other mundane tasks. The most memorable
+            part of my time there was talking to the patients. People who ended up on this floor were generally old and
+            in pretty bad shape but most would recover ok. After sometime the patients would recognize my face and
+            remember my name and in my down time I would visit their rooms and listen to them tell stories of their
+            lives as they got comfortable with me. Something that stood out to me was how open and honest people
+            patients generally were on that floor. I still remember helping this one guy out of bed to get to the
+            bathroom, and he was in so much pain after making a little movement. As we were taking a break he was
+            telling
+            me about how he used to serve in the military and was a Vietnam veteran. He told me about things he was
+            upset about and happy about during his service and passed on some wise words that seemed to not sound cheesy
+            at all at the moment.
+        </p>
+        <p>
+            It is difficult to accurately tell my experience through words, but helping people from many walks of life
+            during a vulnerable moment in their lives helped me mature in some ways I wouldn't have grown in otherwise.
+        </p>
+    </div>
 </body>
 
 </html>
