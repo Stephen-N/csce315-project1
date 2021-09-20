@@ -3,8 +3,8 @@ function myLightFunction() {
     localStorage.setItem("bg", document.body.style.backgroundColor);
 }
 
-function myDarkFunction() {
-    document.body.style.backgroundColor = "DarkGray";
+function myFunction() {
+    document.body.style.backgroundColor = "grey";
     localStorage.setItem("bg", document.body.style.backgroundColor);
 
 }

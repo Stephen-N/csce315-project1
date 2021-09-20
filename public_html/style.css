@@ -102,6 +102,11 @@ footer {
    
 }
 
+.dark-mode {
+    background-color: grey;
+    color: white;
+}
+
 /* Position text in the top-left corner */
 .topleft {
     position: absolute;
